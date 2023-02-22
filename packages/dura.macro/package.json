@@ -1,0 +1,28 @@
+{
+  "name": "@dura/core.macro",
+  "version": "4.0.1-alpha.15",
+  "description": "",
+  "main": "./cjs/index.js",
+  "exports": {
+    ".": {
+      "require": "./cjs/index.js"
+    }
+  },
+  "scripts": {
+    "build": "father build",
+    "build:no-clean": "father build --no-clean",
+    "dev": "father dev"
+  },
+  "author": "ityuany",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/babel-plugin-macros": "^2.8.5",
+    "@types/babel-plugin-tester": "^9.0.5",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-tester": "^10.1.0",
+    "father": "^4.0.2"
+  },
+  "peerDependencies": {
+    "babel-plugin-macros": ">= 3"
+  }
+}

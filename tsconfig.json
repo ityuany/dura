@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    // "target": "ES5",
+    "strict": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true
+  }
+}
